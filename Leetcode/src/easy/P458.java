@@ -7,6 +7,8 @@ public class P458 {
         int times = minutesToTest / minutesToDie;
         res = (buckets - 1) / 
         return res;
+        
+        
     }
 
 }
