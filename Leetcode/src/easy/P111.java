@@ -7,14 +7,26 @@ public class P111 {
     		return 0;
     	if(root.left == null && root.right == null)
     		return 1;
-        int res = Math.min(depth(root.left, 1), depth(root.right, 1));
-        return res < 2?2:res;
+        int left =  minDepthHelper(root.left, 1);
+        int right = minDepthHelper(root.right, 1);
+        if(!(left != 1 && right != 1))
+        	return Math.max(left, right);
+        else
+        	return Math.min(left, right);
     }
+
+	public int minDepthHelper(TreeNode root, int i) {
+		if(root == null)
+			return i;
+		if(root.left == null && root.right == null)
+			return i+1;
+		else if(root.left != null && root.right != null)
+			return Math.min(minDepthHelper(root.left, i+1), minDepthHelper(root.right, i+1));
+		else if(root.left != null)
+			return minDepthHelper(root.left, i+1);
+		else
+			return minDepthHelper(root.right, i+1);
+	}
     
-    public int depth(TreeNode root, int level) {
-    	if(root == null) {
-    		return level + 1;
-    	}
-    	return Math.min(depth(root.left, level + 1), depth(root.right, level + 1));
-    }
+
 }
