@@ -2,7 +2,7 @@ package easy;
 
 public class P836 {
 
-    public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
+    public static boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         if(rec1[0] == rec2[0] && rec1[1] == rec2[1] && rec1[2] == rec2[2] && rec1[3] == rec2[3])
         	return true;
     	int x11 = rec1[0], x12 = rec1[2], x13 = rec1[0], x14 = rec1[2];
@@ -14,15 +14,39 @@ public class P836 {
         		|| in(rec1, x24, y24) || in(rec2, x11, y11) || in(rec2, x12, y12) ||
         		in(rec2, x13, y13) || in(rec2, x14, y14)) {
         	return true;
-        } else
+        } else {
+        	if((rec2[1] == rec1[1] && ((rec2[0] < rec1[2] && rec2[0] > rec1[0]) || (rec1[0] < rec2[2] && rec1[0] > rec2[0]))) || 
+        			(rec2[3] == rec1[3] && ((rec2[0] < rec1[2] && rec2[0] > rec1[0]) || (rec1[0] < rec2[2] && rec1[0] > rec2[0])))) 
+        		return true;
+        	
+        	if(((rec2[0] == rec1[0] && ((rec2[1] < rec1[3] && rec2[1] > rec1[1]) || (rec1[1] < rec2[3] && rec1[1] > rec2[1]))) || 
+        				(rec2[2] == rec1[2] && ((rec2[1] < rec1[3] && rec2[1] > rec1[1]) || (rec1[1] < rec2[3] && rec1[1] > rec2[1])))))
+        			return true;
+        	if((rec2[0] > rec1[0] && rec2[0] < rec1[2]) && ((rec1[1] > rec2[1] && rec1[1] < rec2[3]) || (rec1[3] > rec2[1] && rec1[3] < rec2[3])))
+        		return true;
+        	if((rec2[2] > rec1[0] && rec2[2] < rec1[2]) && ((rec1[1] > rec2[1] && rec1[1] < rec2[3]) || (rec1[3] > rec2[1] && rec1[3] < rec2[3])))
+        		return true;
+        	if((rec1[0] > rec2[0] && rec1[0] < rec2[2]) && ((rec2[1] > rec1[1] && rec2[1] < rec1[3]) || (rec2[3] > rec1[1] && rec2[3] < rec1[3])))
+        		return true;
+        	if((rec1[2] > rec2[0] && rec1[2] < rec2[2]) && ((rec2[1] > rec1[1] && rec2[1] < rec1[3]) || (rec2[3] > rec1[1] && rec2[3] < rec1[3])))
+        		return true;
+
         	return false;
+        	
+        }
+        	
        
     }
 
-	public boolean in(int[] rec, int x, int y) {
-		if(x < rec[2] && x > rec[0] && y < rec[3] && y < rec[1])
+	public static boolean in(int[] rec, int x, int y) {
+		if(x < rec[2] && x > rec[0] && y < rec[3] && y > rec[1])
 			return true;
 		return false;
 	}
-
+	
+	public static void main(String[] args) {
+		int[] a = {-7,-3,10,5};
+		int[] b = {-6,-5,5,10};
+		System.out.println(isRectangleOverlap(a, b));
+	}
 }
