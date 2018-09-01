@@ -5,7 +5,6 @@ public class P367 {
 		int k = num % 10;
 		if(k == 2 || k == 3 || k == 7 || k == 8)
 			return false;
-		boolean res = false;
 		int i = 0, j = 0;
 		if(num % 2 != 0)
 			j = 1;
