@@ -10,7 +10,6 @@ public class P367 {
 			j = 1;
 		for(i = j; i * i < num; i+=2) 
 			;
-		
 		return i * i == num;
 	}
 }
