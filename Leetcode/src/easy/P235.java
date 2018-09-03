@@ -3,20 +3,25 @@ package easy;
 public class P235 {
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null || !(isAncestor(root, p) && isAncestor(root, q)))
-        	return null;
-        
-        boolean f1 = isAncestor(root.left, p);
-        boolean f2 = isAncestor(root.right, q);
-        boolean f3 = isAncestor(root.left, p);
-        boolean f4 = isAncestor(root.right, q);
-        if(f1 &&f2) {
-        	return lowestCommonAncestor(root.left, p, q);
-        } else if(f3 && f4) {
-        	return lowestCommonAncestor(root.right, p, q);
-        } else {
-        	return root;
-        }
+    	if(p.val < q.val) {
+    		if(root == q || root == p)
+    			return root;
+    		if(root.val < q.val && root.val > p.val)
+    			return root;
+    		if(root.val > q.val)
+    			return lowestCommonAncestor(root.left, p, q);
+    		else
+    			return lowestCommonAncestor(root.right, p, q);
+    	} else {
+    		if(root == q || root == p)
+    			return root;
+    		if(root.val < p.val && root.val > q.val)
+    			return root;
+    		if(root.val > p.val)
+    			return lowestCommonAncestor(root.left, p, q);
+    		else
+    			return lowestCommonAncestor(root.right, p, q);
+    	}
     }
     
     public boolean isAncestor(TreeNode root, TreeNode p) {
@@ -24,7 +29,10 @@ public class P235 {
     		return false;
     	if(root == p)
     		return true;
-    	return isAncestor(root.left, p) || isAncestor(root.right, p);
+    	if(root.val < p.val)
+    		return isAncestor(root.right, p);
+    	else
+    		return isAncestor(root.left, p);
     }
 
 }
