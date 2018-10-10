@@ -23,8 +23,7 @@ public class P748 {
         		if(s.charAt(i) >= 'a' && s.charAt(i) <= 'z') {
         			charMap[s.charAt(i) - 'a']++;
         		}
-        	}
-    		
+        	}		
     		boolean flag = true;
     		for(int i = 0; i < 26; i++) {
     			if(chars[i] > 0 && charMap[i] < chars[i]) {
