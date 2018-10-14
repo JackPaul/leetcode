@@ -1,21 +1,39 @@
 package medium;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class P3 {
-    public int lengthOfLongestSubstring(String s) {
-        //int [] nums = {2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101};
-        int res = 0;
-        int[] charsMap = new int[26];
-        int i = 0;
+    public static int lengthOfLongestSubstring(String s) {
+        if(s.equals(""))
+        	return 0;
+        Map<Character, Integer> map = new HashMap<>();
+        int res = 1;
         int low = 0;
-        
-        char[] chars = s.toCharArray();
-        while(i < s.length()) {
-        	if(charsMap[chars[i] - 'a'] > 0) {
-        		low = chars
-        	} else {
-        		charsMap[s.charAt(i) - 'a']++;
-        	}
+        int high = 1;
+        int p = 0;
+        map.put(s.charAt(0), 0);
+        while(high < s.length()) {
+        	char c = s.charAt(high);
+        	
+        	if(map.containsKey(c)) {
+        		res = (high - low)>res?(high-low):res;
+        		p = map.get(c);
+        		for(int i = low; i <= p; i++) {
+        			map.remove(s.charAt(i));
+        		}
+        		low = p + 1;
+        	} 
+        	
+        	map.put(c, high);
+        	high++;
+        	
         }
+        res = (high - low)>res?(high-low):res;
         return res;
     }
+    
+    public static void main(String[] args) {
+		System.out.println(lengthOfLongestSubstring(" "));
+	}
 }
