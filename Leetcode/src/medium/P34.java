@@ -17,17 +17,17 @@ public class P34 {
 			return;
 		}
 		int center = (i + j) / 2;
-		if(nums[center] == t)
+		
 		
 		
 	}
 
 	private int[] searchRange(int[] nums, int i, int j, int t) {
 		int [] res = new int[2];
-		if(nums[i] == r)
-			res[0] == i;
+
 		int center = (i + j) / 2;
 		if(nums[center] == t)
-		return null;
+		return res;
+		return res;
 	}
 }

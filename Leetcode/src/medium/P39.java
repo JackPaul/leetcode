@@ -27,7 +27,7 @@ public class P39 {
 			if(combinationSumHelper(candidates, t, i).size() == 0){
 				return res;
 			} else {
-				for()
+				;
 			}
 		}
 		return null;
