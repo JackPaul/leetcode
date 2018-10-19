@@ -14,6 +14,7 @@ public class P39 {
 		List<List<Integer>> res = new ArrayList<>();
 		if(i > candidates.length - 1) {
 			return res;
+			//Arrays.binarys
 		}
 		
 		if(target < candidates[0] || target > candidates[candidates.length - 1])
