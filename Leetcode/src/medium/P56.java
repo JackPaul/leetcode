@@ -33,9 +33,7 @@ public class P56 {
     				flag[i] = true;
     			} else {
     				i--;
-    			}
-    			
-    			
+    			}	
     		}
     	}		
     	return res;
