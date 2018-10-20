@@ -10,6 +10,7 @@ public class P56 {
 		      Interval() { start = 0; end = 0; }
 		      Interval(int s, int e) { start = s; end = e; }
 	}
+	
     public static List<Interval> merge(List<Interval> intervals) {
         List<Interval> res = new ArrayList<>();
     	boolean[] flag = new boolean[intervals.size()];

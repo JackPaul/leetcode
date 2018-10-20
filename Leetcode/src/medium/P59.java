@@ -5,6 +5,7 @@ public class P59 {
         int[][] res = new int[n][n];
         
         
+        
         return res;
     }
 }
