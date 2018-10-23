@@ -6,24 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class P94 {
-	/*
-    public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        inOrder(root, res);
-        return res;
-    }
-
-	private void inOrder(TreeNode root, List<Integer> res) {
-		if(root != null) {
-			inOrder(root.left, res);
-			res.add(root.val);
-			inOrder(root.right, res);
-		}
-	}
-	*/
-	
-	public List<Integer> inorderTraversal(TreeNode root) {
+public class P144 {
+    public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         if(root == null)
         	return res;
@@ -40,12 +24,12 @@ public class P94 {
         			res.add(node.val);
         		} else if(node.left != null && node.right != null) {
         			stack.push(node.right);
-        			stack.push(node);
         			stack.push(node.left);
+        			stack.push(node);
         			visited.put(node, true);
         		} else if(node.left != null) {
-        			stack.push(node);
         			stack.push(node.left);
+        			stack.push(node);
         			visited.put(node, true);
         		} else {
         			stack.push(node.right);
