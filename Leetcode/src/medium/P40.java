@@ -8,10 +8,32 @@ public class P40 {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
     	Arrays.sort(candidates);
     	List<List<Integer>> res = new ArrayList<>();
-    	res = combinationSumHelper(candidates, target, 0);
+    	combinationSumHelper(candidates, 0, target, new ArrayList<Integer>(), res);
     	return res;
     }
 
+	private void combinationSumHelper(int[] candidates, int i, int target, ArrayList<Integer> curr,
+			List<List<Integer>> res) {
+		if(i > candidates.length)
+			return;
+		curr.add(candidates[0]);
+		if(candidates[i] == target) {
+			res.add(new ArrayList<>(curr));
+		} else {
+			if(target - candidates[i] >= i) {
+				if(i > 0 && candidates[i] == candidates[i-1])
+					combinationSumHelper(candidates, i+2, target, curr, res);
+				else {
+					combinationSumHelper(candidates, i+1, target, curr, res);
+				}
+			}
+		}
+		curr.remove(curr.size() - 1);
+	}
+
+
+
+    /*
     private static List<List<Integer>> combinationSumHelper(int[] candidates, int target, int idx) {
 		List<List<Integer>> res = new ArrayList<>();
 		if(target < candidates[idx])
@@ -40,6 +62,7 @@ public class P40 {
 		}
 		return res;
 	}
+	*/
 	
 	
 }
