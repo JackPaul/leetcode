@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class P46 {
+	/*
     public static List<List<Integer>> permute(int[] nums) {
     	
     	List<List<Integer>> res = new ArrayList<>();
@@ -54,7 +55,30 @@ public class P46 {
 			l1.add(l.get(i)+0);
 		}
 	}
-
+*/
+	public static List<List<Integer>> permute(int[] nums) {
+		List<List<Integer>> res = new ArrayList<>();
+		boolean[] flag = new boolean[nums.length];
+		permute(nums, res, new ArrayList<Integer>(), flag);
+		return res;
+	}
+	private static void permute(int[] nums, List<List<Integer>> res, ArrayList<Integer> curr, boolean[] flag) {
+		if(curr.size() == nums.length) {
+			res.add(new ArrayList<>(curr));
+			return;
+		}
+		
+		for(int i = 0; i < nums.length; i++) {
+			if(!flag[i]) {
+				curr.add(nums[i]);
+				flag[i] = true;
+				permute(nums, res, curr, flag);
+				flag[i] = false;
+				curr.remove(curr.size() - 1);
+			}
+		}
+		
+	}
 	public static void main(String[] args) {
 		int[] nums = {1};
 		System.out.println(permute(nums));
