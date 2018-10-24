@@ -5,31 +5,36 @@ import java.util.Arrays;
 import java.util.List;
 
 public class P40 {
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-    	Arrays.sort(candidates);
-    	List<List<Integer>> res = new ArrayList<>();
-    	combinationSumHelper(candidates, 0, target, new ArrayList<Integer>(), res);
-    	return res;
-    }
+	public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (candidates == null || candidates.length == 0) {
+            return res;
+        }
+        Arrays.sort(candidates);
 
-	private void combinationSumHelper(int[] candidates, int i, int target, ArrayList<Integer> curr,
-			List<List<Integer>> res) {
-		if(i > candidates.length)
-			return;
-		curr.add(candidates[0]);
-		if(candidates[i] == target) {
-			res.add(new ArrayList<>(curr));
-		} else {
-			if(target - candidates[i] >= i) {
-				if(i > 0 && candidates[i] == candidates[i-1])
-					combinationSumHelper(candidates, i+2, target, curr, res);
-				else {
-					combinationSumHelper(candidates, i+1, target, curr, res);
-				}
-			}
-		}
-		curr.remove(curr.size() - 1);
-	}
+        combinationSum(candidates, target, 0, new ArrayList<>(), res);
+        return res;
+    }
+    
+    private static void combinationSum(int[] candidates, int target, int idx, List<Integer> curr, List<List<Integer>> res) {
+        if (target == 0) {
+            res.add(new ArrayList<>(curr));
+            return;
+        }
+        
+        if(target < 0)
+        	return;
+        if(idx >= candidates.length)
+        	return;
+        curr.add(candidates[idx]);
+        combinationSum(candidates, target - candidates[idx], idx+1, curr, res);
+        curr.remove(curr.size() - 1);
+        idx++;
+        while(idx < candidates.length && candidates[idx] == candidates[idx-1])
+        	idx++;
+        combinationSum(candidates, target, idx, curr, res);
+
+    }
 
 
 
@@ -64,5 +69,8 @@ public class P40 {
 	}
 	*/
 	
-	
+	public static void main(String[] args) {
+		int[] candidates = {10,1,2,7,6,1,5};
+		System.out.println(combinationSum2(candidates, 8));
+	}
 }
