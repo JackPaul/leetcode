@@ -5,13 +5,40 @@ import java.util.Arrays;
 import java.util.List;
 
 public class P40 {
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-    	Arrays.sort(candidates);
-    	List<List<Integer>> res = new ArrayList<>();
-    	res = combinationSumHelper(candidates, target, 0);
-    	return res;
+	public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (candidates == null || candidates.length == 0) {
+            return res;
+        }
+        Arrays.sort(candidates);
+
+        combinationSum(candidates, target, 0, new ArrayList<>(), res);
+        return res;
+    }
+    
+    private static void combinationSum(int[] candidates, int target, int idx, List<Integer> curr, List<List<Integer>> res) {
+        if (target == 0) {
+            res.add(new ArrayList<>(curr));
+            return;
+        }
+        
+        if(target < 0)
+        	return;
+        if(idx >= candidates.length)
+        	return;
+        curr.add(candidates[idx]);
+        combinationSum(candidates, target - candidates[idx], idx+1, curr, res);
+        curr.remove(curr.size() - 1);
+        idx++;
+        while(idx < candidates.length && candidates[idx] == candidates[idx-1])
+        	idx++;
+        combinationSum(candidates, target, idx, curr, res);
+
     }
 
+
+
+    /*
     private static List<List<Integer>> combinationSumHelper(int[] candidates, int target, int idx) {
 		List<List<Integer>> res = new ArrayList<>();
 		if(target < candidates[idx])
@@ -40,6 +67,10 @@ public class P40 {
 		}
 		return res;
 	}
+	*/
 	
-	
+	public static void main(String[] args) {
+		int[] candidates = {10,1,2,7,6,1,5};
+		System.out.println(combinationSum2(candidates, 8));
+	}
 }
