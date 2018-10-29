@@ -36,7 +36,7 @@ public class P117 {
         	
         } else if(root.right != null){
     		if(n != null) {
-    			if(root.next.left != null) {
+    			if(n.left != null) {
     				root.right.next = n.left;
     			} else {
     				root.right.next = n.right;
@@ -44,8 +44,8 @@ public class P117 {
     		}
     		
         }
-        connect(root.left);
         connect(root.right);
+        connect(root.left);  
     }
 
 }
