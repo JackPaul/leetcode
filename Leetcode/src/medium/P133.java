@@ -20,22 +20,20 @@ public class P133 {
 	private UndirectedGraphNode clone(UndirectedGraphNode node, Map<Integer, UndirectedGraphNode> nodes) {
 		if(node == null)
 			return null;
-		
-		if(nodes.containsKey(node.label)) {
-			for(UndirectedGraphNode un : node.neighbors) {
-				nodes.get(node.label).neighbors.add(clone(un, nodes));
-			}
-			return nodes.get(node.label);
-		} else {
+
+		if(!nodes.containsKey(node.label)) {
 			UndirectedGraphNode root = new UndirectedGraphNode(node.label);
 			nodes.put(node.label, root);
 			for(UndirectedGraphNode un : node.neighbors) {
-				if(un.label == node.label)
-					root.neighbors.add(root);
-				else
+				if(nodes.containsKey(un.label)) {
+					root.neighbors.add(nodes.get(un.label));
+				} else {
 					root.neighbors.add(clone(un, nodes));
+				}
 			}
 			return root;
+		} else {
+			return nodes.get(node.label);
 		}
 	}
 
