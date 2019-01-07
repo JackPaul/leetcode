@@ -1,7 +1,9 @@
 package hard;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.PriorityQueue;
 
 public class P51 {
 
@@ -68,5 +70,18 @@ public class P51 {
 
 	public static void main(String[] args) {
 		System.out.println(solveNQueens(4));
+		PriorityQueue<Integer> queue = new PriorityQueue<>(new Comparator<Integer>() {
+
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				if(o1 > 02)
+					return -1;
+				else if(o1 == o2)
+					return 0;
+				else
+					return 1;
+			}
+			
+		});
 	}
 }

@@ -9,11 +9,11 @@ import java.util.List;
 
 public class P155 {
 	class MinStack {
-
+		/*
 		LinkedList<Integer> list = new LinkedList<>();
 		int min = 0;
 		Integer[] array = null;
-	    /** initialize your data structure here. */
+	    
 	    public MinStack() {
 	        
 	    }
@@ -45,6 +45,45 @@ public class P155 {
 	    public int getMin() {
 	        return min;
 	    }
+	    */
+		private LinkedList<Integer> nums = null;
+		private LinkedList<Integer> mins = null;
+		/** initialize your data structure here. */
+	    public MinStack() {
+			nums = new LinkedList<Integer>();
+			mins = new LinkedList<Integer>();
+	    }
+	    
+	    public void push(int x) {
+            if(mins.isEmpty()) {
+            	nums.push(x);
+            	mins.push(x);
+            	return;
+            }
+            nums.push(x);
+	        int m = mins.peek();
+	        if(x < m) {
+	        	mins.push(x);
+	        } else {
+	        	mins.push(m);
+	        }
+	    }
+	    
+	    public void pop() {
+	    	if(mins.isEmpty())
+	    		return;
+	    	mins.pop();
+	        nums.pop();
+	    }
+	    
+	    public int top() {
+	    	return nums.peek();
+	    }
+	    
+	    public int getMin() {
+	        return mins.peek();
+	    }
+		
 	}
 
 	/**
