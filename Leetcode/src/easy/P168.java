@@ -4,30 +4,14 @@ public class P168 {
 
     public static String convertToTitle(int n) {
         String res = "";
-        char[] chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
-        int i = -1;
-        while(n > 26) {
+        char[] chars = "ZABCDEFGHIJKLMNOPQRSTUVWXY".toCharArray();
+        int i = 0;
+        while(n > 0) {
         	i = n % 26;
-        	
-        	if(i == 0)
-        		n = n - 26;
-        	else
-        		n = n - i;
-        	System.out.println(n);
         	n = n / 26;
-        	
-        	if(i == 0)
-        		res = res + "Z";
-        	else
-        		res = chars[(i+25) % 26] + res;
-        	
+        	res = chars[i] + res;
         }
         
-        if(n == 0)
-        	return res;
-        if(i == 0)
-        	n--;
-        res = chars[(n +25) % 26] + res;
         return res;
     }
     

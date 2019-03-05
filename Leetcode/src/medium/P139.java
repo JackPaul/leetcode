@@ -2,9 +2,17 @@ package medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+import medium.P211.WordDictionary;
 
 public class P139 {
+	
+	/*
+	//超时
     public static boolean wordBreak(String s, List<String> wordDict) {
 
         if(s.length() == 0)
@@ -21,10 +29,55 @@ public class P139 {
         }
         return res;
     }
+    */
+    public static boolean wordBreak(String s, List<String> wordDict) {
+		if(s.equals(""))
+			return true;
+		int[] chars = new int[26];
+    	Map<Character,  List<String>> map = new HashMap<>();
+    	for(String word : wordDict) {
+    		Character c = word.charAt(0);
+    		if(map.containsKey(c)) {
+    			map.get(c).add(word);
+    		} else {
+    			List<String> list = new ArrayList<>();
+    			list.add(word);
+    			map.put(c, list);
+    		}
+    		for(int i = 0; i < word.length(); i++) {
+    			chars[word.charAt(i) - 'a']++;
+    		}
+    	}
+    	
+		for(int i = 0; i < s.length(); i++) {
+			if(chars[s.charAt(i) - 'a'] == 0)
+				return false;
+		}
+    	return wordBreak(s, map);
+        
+    }
     
-    public static void main(String[] args) {
+    private static boolean wordBreak(String s, Map<Character, List<String>> map) {
+		if(s.equals(""))
+			return true;
+		Character c = s.charAt(0);
+		if (!map.containsKey(c))
+			return false;
+		List<String> list = map.get(c);
+		boolean f = false;
+		for(String w : list) {
+			if(s.indexOf(w) == 0) {
+				f = f || wordBreak(s.substring(w.length()), map);
+			}
+		}
+		return f;
+	}
+    
+   
+	public static void main(String[] args) {
 		String s = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab";
-		List<String> wordDict = new ArrayList<>(Arrays.asList("le","leet","code","co"));
-		System.out.println(wordBreak("leetcodeleet", wordDict));
+		
+		List<String> wordDict = new ArrayList<>(Arrays.asList("a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"));
+		System.out.println(wordBreak(s, wordDict));
 	}
 }
