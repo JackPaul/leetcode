@@ -2,7 +2,364 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03bd4738-30bc-402a-b4fd-82beff7ae836" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Leetcode/src/easy/P100.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/easy/P100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeLinkNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P10.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P100.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P102.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P103.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P103.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P105.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P105.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P106.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P106.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P107.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P108.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P108.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P109.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P109.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P110.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P111.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P112.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P113.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P113.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P114.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P116.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P116.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P117.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P117.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P118.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P118.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P119.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P119.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P12.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P120.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P120.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P121.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P122.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P122.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P125.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P125.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P129.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P129.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P130.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P130.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P131.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P131.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P133.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P133.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P134.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P134.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P135.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P135.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P136.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P136.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P137.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P137.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P138.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P138.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P139.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P139.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P141.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P141.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P142.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P142.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P143.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P143.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P144.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P144.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P146.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P146.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P147.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P147.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P15.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P150.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P150.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P151.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P151.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P152.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P152.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P153.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P153.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P155.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P155.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P16.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P160.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P160.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P162.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P162.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P165.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P165.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P166.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P166.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P167.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P168.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P168.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P169.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P169.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P17.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P171.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P171.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P172.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P172.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P173.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P173.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P179.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P179.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P18.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P187.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P187.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P189.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P189.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P19.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P191.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P191.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P198.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P198.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P199.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P199.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P200.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P201.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P201.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P202.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P202.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P203.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P203.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P204.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P204.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P205.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P205.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P206.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P207.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P207.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P208.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P208.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P209.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P209.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P210.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P210.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P211.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P211.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P213.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P213.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P215.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P216.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P216.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P217.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P217.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P219.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P219.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P22.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P220.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P220.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P225.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P225.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P226.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P226.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P23.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P230.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P230.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P231.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P231.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P232.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P232.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P234.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P234.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P235.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P235.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P237.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P237.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P24.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P240.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P240.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P242.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P242.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P25.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P257.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P257.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P258.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P258.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P260.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P260.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P263.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P263.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P268.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P268.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P274.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P274.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P283.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P283.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P29.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P290.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P290.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P292.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P292.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P295.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P295.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P303.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P303.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P304.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P304.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P31.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P319.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P319.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P32.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P326.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P326.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P328.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P328.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P33.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P338.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P338.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P34.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P342.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P342.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P345.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P345.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P347.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P347.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P349.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P349.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P350.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P350.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P36.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P367.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P367.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P37.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P374.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P374.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P377.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P377.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P378.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P378.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P382.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P382.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P383.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P383.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P384.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P384.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P387.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P387.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P389.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P389.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P39.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P40.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P400.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P400.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P401.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P401.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P404.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P404.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P409.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P409.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P41.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P412.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P412.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P413.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P413.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P414.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P414.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P415.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P415.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P416.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P416.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P42.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P423.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P423.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P427.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P427.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P429.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P429.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P43.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P430.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P430.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P434.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P434.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P437.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P437.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P438.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P438.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P44.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P441.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P441.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P442.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P442.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P443.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P443.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P445.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P445.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P447.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P447.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P448.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P448.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P450.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P450.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P451.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P451.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P453.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P453.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P455.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P455.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P458.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P458.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P459.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P459.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P46.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P461.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P461.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P463.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P463.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P467.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P467.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P47.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P475.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P475.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P48.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P482.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P482.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P485.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P485.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P49.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P492.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P492.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P496.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P496.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P50.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P500.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P500.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P501.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P501.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P504.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P504.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P506.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P506.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P507.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P507.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P51.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P513.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P513.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P520.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P520.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P521.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P521.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P530.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P530.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P532.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P532.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P535.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P535.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P537.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P537.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P538.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P538.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P54.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P543.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P543.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P55.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P551.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P551.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P557.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P557.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P558.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P558.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P559.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P559.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P56.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P561.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P561.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P563.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P563.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P566.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P566.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P57.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P57.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P572.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P572.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P575.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P575.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P581.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P581.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P589.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P589.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P59.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P59.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P590.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P590.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P594.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P594.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P598.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P598.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P599.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P599.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P60.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P60.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P606.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P606.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P61.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P61.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P617.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P617.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P62.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P621.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P621.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P628.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P628.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P63.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P63.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P633.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P633.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P637.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P637.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P64.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P643.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P643.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P645.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P645.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P647.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P647.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P65.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P65.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P653.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P653.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P654.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P654.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P657.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P657.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P661.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P661.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P665.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P665.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P669.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P669.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P671.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P671.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P674.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P674.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P680.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P680.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P682.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P682.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P687.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P687.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P690.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P690.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P693.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P693.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P695.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P695.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P696.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P696.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P697.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P697.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P700.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P700.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P701.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P701.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P704.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P704.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P705.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P705.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P706.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P706.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P707.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P707.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P709.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P709.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P71.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P71.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P717.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P717.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P72.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P72.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P724.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P724.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P725.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P725.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P728.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P728.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P73.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P73.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P733.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P733.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P74.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P74.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P744.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P744.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P746.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P746.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P747.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P747.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P748.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P748.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P75.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P75.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P754.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P754.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P76.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P76.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P762.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P762.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P763.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P763.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P766.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P766.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P77.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P77.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P771.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P771.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P78.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P784.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P784.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P788.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P788.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P79.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P791.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P791.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P796.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P796.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P797.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P797.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P80.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P804.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P804.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P806.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P806.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P807.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P807.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P81.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P81.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P811.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P811.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P812.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P812.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P814.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P814.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P817.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P817.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P819.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P819.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P82.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P82.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P821.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P821.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P824.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P824.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P830.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P830.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P832.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P832.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P836.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P836.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P84.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P84.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P840.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P840.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P844.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P844.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P849.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P849.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P85.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P85.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P851.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P851.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P852.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P852.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P859.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P859.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P86.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P86.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P860.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P860.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P861.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P861.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P867.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P867.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P868.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P868.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P870.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P870.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P872.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P872.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P874.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P874.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P876.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P876.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P881.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P881.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P884.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P884.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P887.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P887.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P888.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P888.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P89.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P89.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P890.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P890.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P892.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P892.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P893.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P893.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P894.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P894.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P896.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P896.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P897.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P897.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P90.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P905.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P905.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P91.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P91.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P911.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P911.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P915.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P915.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P916.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P916.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P917.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P917.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P919.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P919.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P92.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P92.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P921.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P921.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P93.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P93.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P931.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P931.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P94.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P94.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P95.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P95.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P96.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P96.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P97.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P97.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/Leetcode/P98.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P98.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,42 +368,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode/src/easy/P100.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode/bin/hard/P4.class">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P897.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <folding>
-                <element signature="e#0#1814#0" expanded="true" />
-              </folding>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Leetcode/src/hard/P4.java">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P905.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P911.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P915.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P916.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P917.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P921.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P931.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeLinkNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Leetcode/src/hard/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,14 +474,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Leetcode/src/easy/P100.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P771.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P784.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P788.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P791.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P796.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P797.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P804.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P806.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P807.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P811.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P812.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P814.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P817.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P819.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P821.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P824.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P830.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P832.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P836.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P840.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P844.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P849.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P851.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P852.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P859.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P860.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P861.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P867.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P868.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P870.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P872.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P874.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P876.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P881.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P884.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P887.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P888.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P890.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P892.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P893.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P894.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P896.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P897.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P905.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P911.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P915.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P916.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P917.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P921.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P931.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-7" />
+    <option name="width" value="1934" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -84,12 +554,6 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -97,7 +561,64 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hard" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="P303.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="P617.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="P705.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="P706.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -110,13 +631,20 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553521224364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553697813790" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Leetcode/bin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jkp\IdeaProjects\leetcode\Leetcode\src\main\java\Leetcode" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,6 +658,40 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.P3">
+    <configuration name="P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.P1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.P3" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.P3" />
+        <item itemvalue="Application.P1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -141,28 +703,27 @@
       <option name="presentableId" value="Default" />
       <updated>1553520908913</updated>
       <workItem from="1553520910181" duration="145000" />
+      <workItem from="1553521071920" duration="5187000" />
+      <workItem from="1553607298562" duration="2996000" />
+      <workItem from="1553695863834" duration="1710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145000" />
+    <option name="totallyTimeSpent" value="10038000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1936" height="1066" extended-state="0" />
+    <frame x="-7" y="0" width="1934" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25827107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -170,46 +731,386 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33261105" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/easy/P100.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P784.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/bin/hard/P4.class">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P788.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P791.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P796.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P797.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P804.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P806.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P807.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P811.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P812.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P814.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P817.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P819.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P821.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P824.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P830.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P832.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P836.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P840.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P844.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P849.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P851.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P852.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P859.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P860.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P861.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P867.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P868.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P870.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P872.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P874.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P876.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P881.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P884.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P887.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P888.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P890.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P892.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P893.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P894.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding>
-            <element signature="e#0#1814#0" expanded="true" />
+            <element signature="e#181#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/hard/P4.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P896.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/hard/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P897.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P905.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P911.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P915.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P916.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P917.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P921.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P931.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeLinkNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
