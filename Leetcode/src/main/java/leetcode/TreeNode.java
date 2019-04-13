@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.HashSet;
+
 /**
  * @author jackpaul <jiekepao@gmail.com>
  * Created on 2019-03-25 22:48
@@ -12,5 +14,5 @@ public class TreeNode {
     public TreeNode(int val) {
         this.val = val;
     }
-
+    HashSet hs = null;
 }
