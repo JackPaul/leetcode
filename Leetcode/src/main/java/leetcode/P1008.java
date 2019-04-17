@@ -8,8 +8,6 @@ import java.util.Arrays;
  * @Description:
  */
 public class P1008 {
-    //8,5,1,7,10,12
-    //1 5 7 8 10, 12
     public TreeNode bstFromPreorder(int[] preorder) {
         int[] inOrder = Arrays.copyOfRange(preorder, 0, preorder.length);
         Arrays.sort(inOrder);
