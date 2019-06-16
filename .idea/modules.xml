@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Desktop/fansTopPlatform/fansTopPlatform.iml" filepath="$USER_HOME$/Desktop/fansTopPlatform/fansTopPlatform.iml" />
-      <module fileurl="file://F:/fansTopPlatform/fansTopPlatform.iml" filepath="F:/fansTopPlatform/fansTopPlatform.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
     </modules>
   </component>
 </project>

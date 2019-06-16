@@ -1,6 +1,6 @@
 package leetcode;
 
-import java.util.LinkedList;
+import java.util.*;
 
 /**
  * @author jackpaul <jiekepao@gmail.com>
@@ -8,6 +8,7 @@ import java.util.LinkedList;
  * @Description:
  */
 public class P236 {
+    /*
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null) {
             return null;
@@ -39,4 +40,57 @@ public class P236 {
         }
         return isAncestor(node1.left, node2) || isAncestor(node1.right, node2);
     }
+    */
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if(root == null) {
+            return null;
+        }
+
+        Map<TreeNode, TreeNode> parents = new HashMap<>();
+        //建立从子节点指向父亲节点的map
+        constructRelations(root, parents);
+        List<TreeNode> path_P = new ArrayList<>();
+        List<TreeNode> path_Q = new ArrayList<>();
+        TreeNode currentNode = p;
+        while (currentNode != null && parents.containsKey(currentNode)){
+            path_P.add(currentNode);
+            if(currentNode == q) {
+                return q;
+            }
+            currentNode = parents.get(currentNode);
+        }
+        currentNode = q;
+        while (currentNode != null && parents.containsKey(currentNode)){
+            path_Q.add(currentNode);
+            if(currentNode == p) {
+                return p;
+            }
+            currentNode = parents.get(currentNode);
+        }
+        TreeNode res = null;
+        for(TreeNode node:path_P) {
+            if(path_Q.lastIndexOf(node) != -1) {
+                res = node;
+                break;
+            }
+
+        }
+        if(res == null)
+            return root;
+        return res;
+    }
+
+    private void constructRelations(TreeNode root, Map<TreeNode, TreeNode> parents) {
+        if(root != null) {
+            if(root.right != null) {
+                parents.put(root.right, root);
+                constructRelations(root.right,parents);
+            }
+            if(root.left != null) {
+                parents.put(root.left, root);
+                constructRelations(root.left, parents);
+            }
+        }
+    }
+
 }

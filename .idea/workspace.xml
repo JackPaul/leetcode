@@ -1,32 +1,539 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="fansTopPlatform:war" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="03bd4738-30bc-402a-b4fd-82beff7ae836" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/fansTopPlatform_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/fansTopPlatform_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P223.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P279.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P289.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P299.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P300.java" afterDir="false" />
+    <list default="true" id="eb88f524-a5b4-47d3-82db-618389180a5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P68.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P865.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/fansTopPlatform_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/fansTopPlatform_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_kotlin_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_phantomthief_cursor_iterator_1_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_phantomthief_more_lambdas_0_1_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_phantomthief_scope_1_0_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hubspot_jackson_jackson_datatype_protobuf_0_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_reflect_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_2_71.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/demos/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/demos/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/demos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/demos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P136.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P136.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P987.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P987.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P988.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P988.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/MyHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/MyHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/NumArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/P232.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/P232.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/P303.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/P303.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/P427.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/P427.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/P617.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/P617.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/P706.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/P706.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/easy/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/easy/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/medium/P919$CBTInserter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/medium/P919$CBTInserter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/medium/P919.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/medium/P919.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/medium/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/bin/medium/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/demos/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/demos/ProducerAndComsumerTest$producerAndConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/demos/ProducerAndComsumerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/MyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/NumArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/P232.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/P303.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/P427.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/P617.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/P706.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/easy/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/MyHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P102.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P103.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P105.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P106.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P107.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P108.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P109.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P110.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P111.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P112.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P113.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P114.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P116.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P117.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P118.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P119.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P120.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P121.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P122.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P125.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P129.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P130.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P131.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P133$UndirectedGraphNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P133.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P134.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P135.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P136.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P137.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P138$RandomListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P138.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P139.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P141.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P142.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P143.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P144.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P146$LRUCache$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P146$LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P146.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P147.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P150.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P151.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P152.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P153.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P155$MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P155.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P160.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P162.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P165.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P166.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P167.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P168.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P169.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P171.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P172.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P173$BSTIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P173.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P179.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P187.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P189.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P191.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P198.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P199.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P201.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P202.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P203.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P204.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P205.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P206.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P207.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P208$Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P208.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P209.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P210.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P211$WordDictionary$Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P211$WordDictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P211.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P213.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P215.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P216.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P217.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P219.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P220.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P225.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P226$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P226.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P230.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P231.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P234.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P235.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P237.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P24$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P240.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P242.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P257.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P258.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P260.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P263.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P268.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P274.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P283.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P290.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P292.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P295$MedianFinder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P295$MedianFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P295.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P304$NumMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P304.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P319.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P326.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P328.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P338.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P342.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P345.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P347.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P349.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P350.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P36.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P367.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P37.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P374.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P377.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P378.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P382$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P382.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P383.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P384$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P384.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P387.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P389.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P39.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P40.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P400.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P401.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P404.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P409.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P41.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P412.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P413.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P414.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P415.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P416.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P42.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P423.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P429$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P429.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P43.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P434.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P437.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P438.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P44.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P441.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P442.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P443.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P445.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P447.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P448.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P450.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P451.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P453.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P455.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P458.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P459.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P46.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P461.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P463.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P467.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P47.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P475.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P48.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P482.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P485.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P49.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P492.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P496.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P50.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P500.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P501.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P504.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P506.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P507.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P51$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P51.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P513.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P520.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P521.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P530$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P530.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P532.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P535$Codec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P535.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P537.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P538.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P54.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P543.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P55.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P551.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P557.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P558.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P559$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P559.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P56$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P56.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P561.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P563.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P566.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P57.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P572.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P575.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P581.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P589$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P589.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P59.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P590.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P594.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P598.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P599.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P60.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P606$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P606.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P61.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P62.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P621$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P621.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P628.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P63.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P633.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P637$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P637.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P643.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P645.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P647.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P65.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P653$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P653.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P654.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P657.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P661.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P665.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P669$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P669.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P671.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P674.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P680.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P682.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P687.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P690$Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P690.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P693.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P695.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P696.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P697.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P700$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P700.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P701.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P704.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P705.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P707$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P707$MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P707.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P709.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P71.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P717.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P72.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P724.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P725.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P728.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P73.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P733.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P74.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P744.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P746.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P747.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P748.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P75.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P754.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P76.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P762.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P763.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P766.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P77.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P771.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P78.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P784.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P788.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P79.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P791.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P796.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P797.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P804.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P806.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P807.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P81.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P811.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P812.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P814.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P817.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P819.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P82.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P821.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P824.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P830.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P832.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P836.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P84.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P840.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P844.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P849.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P85.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P851.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P852.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P859.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P86.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P860.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P861.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P867.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P868.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P870.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P872$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P872.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P874.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P876$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P876.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P881.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P884.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P887.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P888.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P89.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P890.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P892.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P893.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P894.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P896.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P897.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P90.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P905.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P91.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P911.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P915.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P916.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P917.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P92.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P921.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P93.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P931.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P94.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P95.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P96.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P97.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/P98.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/TreeLinkNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/leetcode/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/medium/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/medium/P430.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/medium/P919$CBTInserter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/medium/P919.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/medium/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/bin/production/leetcode/utils/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P236.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P236.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P65.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P65.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P84.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P84.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P85.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P85.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java" afterDir="false" />
     </list>
-    <ignored path="F:/fansTopPlatform/target/" />
-    <ignored path="$USER_HOME$/Desktop/fansTopPlatform/target/" />
+    <ignored path="$PROJECT_DIR$/Leetcode/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,93 +543,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P85.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="1232">
+              <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopLiveBizOrderInfoController.java">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P84.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/FansTopPlatformApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopCouponDefInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="169" column="49" lean-forward="true" selection-start-line="169" selection-start-column="49" selection-end-line="169" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/Hello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopUserSetDefOperationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopOrderOperationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopOrderInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="169">
+              <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
               <folding>
-                <element signature="e#0#13839#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopCouponTaskDefInfoController.java">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P236.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="42" column="50" lean-forward="true" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+            <state relative-caret-position="-750">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P865.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="784" column="16" selection-start-line="784" selection-start-column="16" selection-end-line="784" selection-end-column="16" />
+              <folding>
+                <element signature="e#23214#23215#0" expanded="true" />
+                <element signature="e#23241#23242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/utils/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -138,18 +632,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contains</find>
-      <find>OFFER</find>
-      <find>put</find>
-      <find>put(</find>
-      <find>containsKey</find>
-      <find>set</find>
-      <find>scope</find>
-      <find>clas</find>
-      <find>class</find>
-      <find>tomcat</find>
-      <find>spring-boot-starter</find>
-      <find>mysql</find>
+      <find>]</find>
+      <find>[</find>
+      <find>&quot;</find>
+      <find>last</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,172 +644,69 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P884.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P887.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P888.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P890.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P892.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P893.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P894.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P896.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P897.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P905.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P911.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P915.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P916.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P917.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P921.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P931.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P76.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/main/java/utils/Sort.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P1.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P3.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P2.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P4.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/demos/ProducerAndComsumerTest.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P623.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P222.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P85.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P84.java" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java" />
         <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P236.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P1022.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P993.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P1008.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P998.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P988.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P987.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P221.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P300.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P223.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P299.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P289.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P279.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/demos/Main.java" />
-        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P136.java" />
-        <option value="F:/fansTopPlatform/pom.xml" />
-        <option value="F:/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopCouponDefInfoController.java" />
-        <option value="F:/fansTopPlatform/src/main/java/com/demo/platform/FansTopPlatformApplication.java" />
-        <option value="F:/fansTopPlatform/src/main/resources/application.properties" />
-        <option value="$USER_HOME$/Desktop/fansTopPlatform/pom.xml" />
-        <option value="$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/FansTopPlatformApplication.java" />
-        <option value="$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopCouponDefInfoController.java" />
-        <option value="$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopLiveBizOrderInfoController.java" />
-        <option value="$USER_HOME$/Desktop/fansTopPlatform/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P865.java" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fansTopPlatform" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="296" />
     <option name="y" value="23" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fansTopPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fansTopPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fansTopPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fansTopPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fansTopPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fansTopPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fansTopPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fansTopPlatform" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558578050098" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/fansTopPlatform" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560672544404" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3091954" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jkp\IdeaProjects\leetcode\Leetcode\src\main\java\Leetcode" />
-    </key>
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -337,23 +720,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FansTopPlatformApplication">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demos.Main" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.P300" />
-      <module name="leetcode" />
+  <component name="RunManager" selected="Application.P84">
+    <configuration name="P84" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.P84" />
+      <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
@@ -364,52 +734,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerAndComsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demos.ProducerAndComsumerTest" />
-      <module name="leetcode" />
+    <configuration name="P85" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.P85" />
+      <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demos.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.Sort" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FansTopPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="fansTopPlatform" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.platform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.platform.FansTopPlatformApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.FansTopPlatformApplication" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.P300" />
-        <item itemvalue="Application.ProducerAndComsumerTest" />
-        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.P84" />
+        <item itemvalue="Application.P85" />
       </list>
     </recent_temporary>
   </component>
@@ -418,81 +759,55 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="03bd4738-30bc-402a-b4fd-82beff7ae836" name="Default Changelist" comment="" />
-      <created>1553520908913</created>
+      <changelist id="eb88f524-a5b4-47d3-82db-618389180a5b" name="Default Changelist" comment="" />
+      <created>1560088674071</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1553520908913</updated>
-      <workItem from="1553520910181" duration="145000" />
-      <workItem from="1553521071920" duration="5187000" />
-      <workItem from="1553607298562" duration="2996000" />
-      <workItem from="1553695863834" duration="1860000" />
-      <workItem from="1553871206647" duration="776000" />
-      <workItem from="1553910334366" duration="924000" />
-      <workItem from="1553911279046" duration="7619000" />
-      <workItem from="1554013181327" duration="3210000" />
-      <workItem from="1554469928300" duration="1144000" />
-      <workItem from="1555157461886" duration="8274000" />
-      <workItem from="1555205797803" duration="7770000" />
-      <workItem from="1555228036165" duration="316000" />
-      <workItem from="1555505142241" duration="7321000" />
-      <workItem from="1555590853398" duration="5728000" />
-      <workItem from="1555599500670" duration="667000" />
-      <workItem from="1555735259530" duration="1953000" />
-      <workItem from="1556021647751" duration="4442000" />
-      <workItem from="1556032836128" duration="2093000" />
-      <workItem from="1556198999804" duration="1484000" />
-      <workItem from="1556637223816" duration="13000" />
-      <workItem from="1557235121210" duration="828000" />
-      <workItem from="1557237637653" duration="1271000" />
-      <workItem from="1557239595119" duration="721000" />
-      <workItem from="1557242021752" duration="5969000" />
-      <workItem from="1558575759427" duration="2889000" />
+      <updated>1560088674071</updated>
+      <workItem from="1560088680006" duration="626000" />
+      <workItem from="1560163126782" duration="2392000" />
+      <workItem from="1560423967961" duration="10441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75600000" />
+    <option name="totallyTimeSpent" value="13459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4199584" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36373392" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30260304" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32744282" />
-      <window_info anchor="bottom" id="CheckStyle" order="13" weight="0.329718" />
-      <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31600833" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32952183" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.32995737" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,56 +816,27 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P221.java</url>
-          <line>14</line>
-          <properties class="leetcode.P221" method="maximalSquare">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P300.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P85.java</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P4.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2442">
-          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        <state relative-caret-position="352">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/awt/Color.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P48.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11594">
-          <caret line="569" column="41" selection-start-line="569" selection-start-column="41" selection-end-line="569" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6226">
-          <caret line="331" column="56" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -561,51 +847,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P1.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P85.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1232">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P179.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/utils/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P76.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P623.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="10" selection-start-column="10" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -616,249 +868,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P222.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="303">
+          <caret line="784" column="16" selection-start-line="784" selection-start-column="16" selection-end-line="784" selection-end-column="16" />
+          <folding>
+            <element signature="e#23214#23215#0" expanded="true" />
+            <element signature="e#23241#23242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P225.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P84.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="169">
+          <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P236.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="-750">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P1022.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P993.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P1008.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P998.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P988.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P987.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="docComment;class#P987#0" />
-            <element signature="method#verticalTraversal#0;class#P987#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/demos/ProducerAndComsumerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="732" column="26" selection-start-line="732" selection-start-column="23" selection-end-line="732" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/utils/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P221.java">
+    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P865.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P300.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P279.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P223.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/fansTopPlatform/fansTopPlatform.iml" />
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P299.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/fansTopPlatform/src/main/java/com/demo/platform/service/impl/FansTopCouponDefServiceImpl.java" />
-    <entry file="file://F:/fansTopPlatform/src/main/java/com/demo/platform/service/FansTopCouponDefService.java" />
-    <entry file="file://F:/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopCouponDefInfoController.java" />
-    <entry file="file://F:/fansTopPlatform/pom.xml" />
-    <entry file="file://F:/fansTopPlatform/src/main/java/com/demo/platform/FansTopPlatformApplication.java" />
-    <entry file="file://F:/fansTopPlatform/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P289.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/demos/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P136.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Leetcode/src/main/java/leetcode/P292.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77132">
-          <caret line="3577" column="70" selection-start-line="3577" selection-start-column="70" selection-end-line="3577" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopUserSetDefOperationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopOrderOperationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopOrderInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13839#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopCouponTaskDefInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="42" column="50" lean-forward="true" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopCouponDefInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="169" column="49" lean-forward="true" selection-start-line="169" selection-start-column="49" selection-end-line="169" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/FansTopPlatformApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/java/com/demo/platform/controller/FansTopLiveBizOrderInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fansTopPlatform/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -868,12 +916,10 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>fansTopPlatform:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3091954" />
-                <option value="0.5" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -881,11 +927,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (fansTopPlatform)|Web</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3091954" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -916,11 +962,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>fansTopPlatform</last-edited>
+          <last-edited>Leetcode</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -940,7 +987,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
